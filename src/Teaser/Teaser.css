@@ -1,0 +1,27 @@
+.teaser {
+    background: #fc8;
+}
+
+@media screen and (min-width: 500) {
+    .teaser {
+        display: inline-block;
+        width: 33.3333%;
+    }
+}
+
+.form {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.field {
+    display: table-row;
+}
+
+.form label,
+.form input,
+.form .invalid {
+    display: table-cell;
+    margin: 0.5em;
+}
