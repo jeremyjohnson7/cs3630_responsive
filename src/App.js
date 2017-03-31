@@ -17,7 +17,7 @@ class App extends Component {
                 <Header>
                     <div className="logo">
                         <img src={logo} className="App-logo" alt="logo" />
-                        <div className="companyName">Company</div>
+                        <div className="company-name">Company</div>
                     </div>
                     <nav className="navigation">
                         <a className="nav-toggle" href="#">
@@ -34,16 +34,14 @@ class App extends Component {
                                 <li>Contact Us</li>
                                 <li>Prices</li>
                                 <li>Cart</li>
+                                {/*<li>Alpha</li>
+                                <li>Beta</li>
+                                <li>Gamma</li>*/}
                             </ul>
                         </a>
                     </nav>
-                    {/*<ul>
-                        <li>Alpha</li>
-                        <li>Beta</li>
-                        <li>Gamma</li>
-                    </ul>*/}
                 </Header>
-                <Hero text="Texas photographs" />
+                <Hero text="Photographs of Texas" />
 
                 <div className="Teasers">
                     <Teaser image="/dallas.jpg" text="Dallas" />

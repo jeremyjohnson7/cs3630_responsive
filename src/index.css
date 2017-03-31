@@ -5,7 +5,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
     font-family: 'Droid Sans Mono', sans-serif;
+    overflow-x: hidden;
 }
 
 p {
