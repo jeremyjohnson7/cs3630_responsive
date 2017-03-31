@@ -1,0 +1,25 @@
+.Hero {
+    /*background: url(/buildings_1600x900.jpg) no-repeat center center / auto 100%;*/
+    /*background: url(/20160508_081856_1.jpg) no-repeat center center / auto 100%;*/
+    background: url(/20160508_081856_2.jpg) no-repeat center center / auto 100%;
+    /*height: calc(100vh - 50px);*/
+    height: 100vh;
+    /*vertical-align: middle;*/
+    color: #fff;
+    /*display: table;*/
+}
+
+/*@media screen and (min-aspect-ratio: 20/13) {*/
+@media screen and (min-aspect-ratio: 16/9) {
+    .Hero {
+        background: url(/20160508_081856_2.jpg) no-repeat center top / 100% auto;
+        /*height: calc(100vw / 16 * 9);*/
+    }
+}
+
+.Hero * {
+    /*display: table-cell;*/
+    margin: auto;
+    /*line-height: 100vh;*/
+    font-size: x-large;
+}

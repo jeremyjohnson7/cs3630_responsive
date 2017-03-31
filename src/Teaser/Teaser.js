@@ -3,17 +3,9 @@ import React from 'react';
 import './Teaser.css';
 
 class Teaser extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    // onSubmit() {
-    //     this.props.submitAction(this.state);
-    // }
-
     render(){
         return (
-            <div className="teaser">
+            <div className="Teaser">
                 <img src={this.props.image} alt={this.props.text} />
                 <div>{this.props.text}</div>
                 {this.props.children}

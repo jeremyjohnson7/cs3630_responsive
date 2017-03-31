@@ -1,11 +1,43 @@
-.teaser {
-    background: #fc8;
+.Teasers {
+    /*display: flex;
+    flex-direction: row-reverse;*/
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: row;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 20px;
 }
 
-@media screen and (min-width: 500) {
-    .teaser {
-        display: inline-block;
-        width: 33.3333%;
+.Teaser {
+    flex: 1;
+    background: #fc8;
+    text-align: center;
+    margin: 0 10px;
+    /*fle*/
+}
+
+.Teaser:first-child {
+    margin-left: 0;
+}
+
+.Teaser:last-child {
+    margin-right: 0;
+}
+
+.Teaser img {
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .Teasers {
+        flex-direction: column;
+        flex-flow: column;
+    }
+
+    .Teaser {
+        margin: 0;
     }
 }
 
