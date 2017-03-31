@@ -36,7 +36,7 @@ class App extends Component {
                         <li>Gamma</li>
                     </ul>*/}
                 </Header>
-                <Hero text="Texas" />
+                <Hero text="Texas photographs" />
                 {/*<p className="App-intro">
                     To get started, edit <code>src/App.js</code> and save to reload.
                 </p>*/}
@@ -51,6 +51,10 @@ class App extends Component {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quo, provident delectus, asperiores sint hic quos sit qui dolorem ratione non suscipit sunt voluptate dolore animi aliquid rem minus laborum.</p>
 
                     <p>Nemo error, non tempora ipsam molestiae harum, perferendis, officiis quas nisi dolor similique sunt maiores voluptate. Fuga eos consequatur blanditiis similique hic? Enim, exercitationem? Aliquid tempore quibusdam laborum eum, doloribus optio voluptate dignissimos nobis. Nam porro sit perspiciatis deleniti magnam, dolorem asperiores repellendus quaerat.</p>
+
+                    <p>Laudantium temporibus in quas quidem ad hic ex dolores iste consectetur distinctio, ipsa dolore quae consequuntur. Deserunt fuga, laudantium ab exercitationem dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nemo, neque aliquam blanditiis quaerat, sit distinctio quia. Quibusdam, quasi, quae. Aliquid, minima aut delectus sed ut eligendi deserunt, totam natus.</p>
+
+                    <p>Error quod non, amet laborum modi magni obcaecati nulla atque cumque tempora doloremque repudiandae aspernatur nam. Quisquam odio voluptatibus pariatur non autem!</p>
                 </div>
 
                 <Footer>Copyright © 2017 Jeremy J. Johnson. All rights reserved.<br /><br />The photographs are protected by United States and international copyright law; and may not be copied, reproduced, printed, modified, stored, or transmitted in any form, digital or otherwise, without the explicit written consent of the copyright owner. Violators will be prosecuted to the maximum extent of applicable law.</Footer>
