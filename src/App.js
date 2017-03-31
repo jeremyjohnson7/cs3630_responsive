@@ -34,14 +34,11 @@ class App extends Component {
                                 <li>Contact Us</li>
                                 <li>Prices</li>
                                 <li>Cart</li>
-                                {/*<li>Alpha</li>
-                                <li>Beta</li>
-                                <li>Gamma</li>*/}
                             </ul>
                         </a>
                     </nav>
                 </Header>
-                <Hero text="Photographs of Texas" />
+                <Hero text="Texas Photographs" />
 
                 <div className="Teasers">
                     <Teaser image="/dallas.jpg" text="Dallas" />
