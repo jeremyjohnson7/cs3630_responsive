@@ -12,10 +12,11 @@
 
 .Teaser {
     flex: 1;
-    background: #fc8;
+    background: #abb;
     text-align: center;
     margin: 0 10px;
-    /*fle*/
+    font-size: large;
+    padding-bottom: 5px;
 }
 
 .Teaser:first-child {
@@ -24,6 +25,7 @@
 
 .Teaser:last-child {
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 .Teaser img {
@@ -38,22 +40,6 @@
 
     .Teaser {
         margin: 0;
+        margin-bottom: 20px;
     }
-}
-
-.form {
-    display: table;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.field {
-    display: table-row;
-}
-
-.form label,
-.form input,
-.form .invalid {
-    display: table-cell;
-    margin: 0.5em;
 }

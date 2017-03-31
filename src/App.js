@@ -21,7 +21,14 @@ class App extends Component {
                     </div>
                     <nav className="navigation">
                         <a className="nav-toggle" href="#">
-                            <span className="trigger">&#9776;</span>
+                            {/*<span className="trigger">&#9776;</span>*/}
+                            <span className="menu-icon trigger">
+                                <svg viewBox="0 0 18 15" width="18px" height="15px">
+                                    <path fill="#ffffff" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+                                    <path fill="#ffffff" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+                                    <path fill="#ffffff" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+                                </svg>
+                            </span>
                             <ul>
                                 <li>Home</li>
                                 <li>Contact Us</li>
@@ -37,9 +44,6 @@ class App extends Component {
                     </ul>*/}
                 </Header>
                 <Hero text="Texas photographs" />
-                {/*<p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>*/}
 
                 <div className="Teasers">
                     <Teaser image="/dallas.jpg" text="Dallas" />
@@ -57,7 +61,7 @@ class App extends Component {
                     <p>Error quod non, amet laborum modi magni obcaecati nulla atque cumque tempora doloremque repudiandae aspernatur nam. Quisquam odio voluptatibus pariatur non autem!</p>
                 </div>
 
-                <Footer>Copyright © 2017 Jeremy J. Johnson. All rights reserved.<br /><br />The photographs are protected by United States and international copyright law; and may not be copied, reproduced, printed, modified, stored, or transmitted in any form, digital or otherwise, without the explicit written consent of the copyright owner. Violators will be prosecuted to the maximum extent of applicable law.</Footer>
+                <Footer>Copyright © 2017 Jeremy J. Johnson. All rights reserved.<br /><br />The photographs are protected by United States and international copyright law; and may not be copied, reproduced, printed, modified, stored, or transmitted in any form, digital or otherwise, without the explicit written consent of the copyright owner.</Footer>
             </div>
         );
     }

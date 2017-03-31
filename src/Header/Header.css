@@ -8,6 +8,11 @@
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
+    z-index: 5;
+}
+
+.Header * {
+    color: #fff;
 }
 
 .logo, .logo * {
@@ -16,4 +21,93 @@
     display: inline-block;
     height: 50px;
     line-height: 50px;
+}
+
+.company-name {
+    top: 0;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    transform: translateY(-35%);
+}
+
+.nav-toggle {
+    height: 50px;
+    text-decoration: none;
+    padding: 12px 1em;
+    display: inline-block;
+    position: relative;
+    /*background: #333;*/
+    color: #fff;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 27px;
+}
+
+.trigger {
+    margin-top: -5px;
+}
+
+@media screen and (min-width: 450px) {
+    .nav-toggle {
+        display: block;
+        position: inherit;
+        background: none;
+        padding: 1em;
+        line-height: 50px;
+        transform: translateY(-30%);
+    }
+    .trigger {
+        display: none;
+    }
+}
+
+.nav-toggle:hover ul {
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    background: #333;
+    z-index: 10;
+    right: 0;
+    min-width: 50vw;
+}
+
+@media screen and (min-width: 450px) {
+    nav ul {
+        display: block;
+        position: inherit;
+        background: none;
+        z-index: 0;
+        right: auto;
+        min-width: none;
+    }
+}
+
+nav li {
+    padding: 0.5em;
+    text-align: left;
+    color: #fff;
+}
+
+nav li:hover {
+    background: #555;
+}
+
+@media screen and (min-width: 450px) {
+    nav li {
+        display: inline-block;
+        color: #000;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    nav li:hover {
+        background: #555;
+    }
 }
